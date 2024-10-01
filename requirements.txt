@@ -1,0 +1,19 @@
+# environment.yml
+# name: auf die Angabe eines Names kann verzichtet werden, da conda-lock den explizit benötigt
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - opencv
+  - jupyterlab
+  - nb_black
+  - streamlit
+  - pip:
+    - streamlit-drawable-canvas
+
+platforms:
+  - linux-64
